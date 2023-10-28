@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "<name of bucket with random numbers"
+    bucket = "terraformstatefile09121995"
     key    = "remote.tfstate"
-    region = "your region"
+    region = "ap-south-1"
   }
 }
